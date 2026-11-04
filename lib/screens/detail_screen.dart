@@ -14,12 +14,13 @@ class DetailScreen extends StatelessWidget {
           //DetailHeader
           ClipRRect(
             borderRadius: BorderRadius.circular(20)),
-             Image.asset(
+             child:Image.asset(
               width:double.infinity,
               height: 250,
               fit:Boxfit.cover,
             ),
            
+            widgetFactory
             
 
             
